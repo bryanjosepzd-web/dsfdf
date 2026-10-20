@@ -1,0 +1,178 @@
+gui:
+  title: "&8Masks"
+  rows: 5
+  decorative_items:
+    # Fila 0 (Slots 0 al 8)
+    - slot: 0
+      material: STAINED_GLASS_PANE
+      data: 10  # Magenta
+      name: " "
+    - slot: 1
+      material: STAINED_GLASS_PANE
+      data: 2   # Morado
+      name: " "
+    - slot: 2
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 3
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 4
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 5
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 6
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 7
+      material: STAINED_GLASS_PANE
+      data: 2   # Morado
+      name: " "
+    - slot: 8
+      material: STAINED_GLASS_PANE
+      data: 10  # Magenta
+      name: " "
+
+    # Fila 1 (Slots 9 al 17)
+    - slot: 9
+      material: STAINED_GLASS_PANE
+      data: 2   # Morado
+      name: " "
+    - slot: 10
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 11
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 12
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 13
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 14
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 15
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 16
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 17
+      material: STAINED_GLASS_PANE
+      data: 2   # Morado
+      name: " "
+
+    # Fila 2 (Slots 18 al 26 - Máscaras en 19, 20, 21, Panel en 22, Máscaras en 23, 24, 25)
+    - slot: 18
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    # (Los slots 19, 20, 21, 23, 24 y 25 están ocupados por las máscaras según mask_slots)
+    - slot: 22
+      material: STAINED_GLASS_PANE
+      data: 15  # Panel de cristal data 15 en el centro
+      name: " "
+    - slot: 26
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+
+    # Fila 3 (Slots 27 al 35)
+    - slot: 27
+      material: STAINED_GLASS_PANE
+      data: 2   # Morado
+      name: " "
+    - slot: 28
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 29
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 30
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 31
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 32
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 33
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 34
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 35
+      material: STAINED_GLASS_PANE
+      data: 2   # Morado
+      name: " "
+
+    # Fila 4 (Slots 36 al 44)
+    - slot: 36
+      material: STAINED_GLASS_PANE
+      data: 10  # Magenta
+      name: " "
+    - slot: 37
+      material: STAINED_GLASS_PANE
+      data: 2   # Morado
+      name: " "
+    - slot: 38
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 39
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 40
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 41
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 42
+      material: STAINED_GLASS_PANE
+      data: 15  # Gris oscuro
+      name: " "
+    - slot: 43
+      material: STAINED_GLASS_PANE
+      data: 2   # Morado
+      name: " "
+    - slot: 44
+      material: STAINED_GLASS_PANE
+      data: 10  # Magenta
+      name: " "
+
+  mask_slots:
+    spiderman: 19
+    flash: 20
+    venom: 21
+    ironman: 23
+    thor: 24
+    hulk: 25

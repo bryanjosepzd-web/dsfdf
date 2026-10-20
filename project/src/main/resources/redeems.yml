@@ -1,0 +1,13 @@
+# Redeem definitions
+# Each redeem is stored under redeems.<id>
+# Fields:
+#   name - display name
+#   texture - Base64 skull texture (only used when texture_enabled is true)
+#   texture_enabled - whether to apply custom skull texture
+#   slot - slot in the redeem menu (-1 = not placed)
+#   commands - list of console commands to run on redemption (%player% replaced)
+#   lore - lore lines shown in the redeem menu (%uses% placeholder supported)
+#   uses - how many times this redeem has been redeemed total
+#   claim_message - message sent when a player claims this redeem (%redeemname%, %player% placeholders)
+#   already_claimed_message - message sent when a player clicks an already-claimed redeem (%redeemname%, %player% placeholders)
+redeems: {}

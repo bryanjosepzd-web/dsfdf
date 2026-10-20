@@ -1,0 +1,6 @@
+# Redeem menu layout
+# rows - number of inventory rows (1-6, default 4)
+# menu_name - title of the redeem menu shown to players (supports color codes)
+# items - items placed via the Edit Redeem Menu mode (managed automatically)
+rows: 4
+menu_name: '&c&lRedeems'

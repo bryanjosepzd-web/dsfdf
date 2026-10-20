@@ -1,0 +1,3 @@
+# Player redemption history (UUID-based)
+# players.<uuid>.redeemed - list of redeem IDs this player has redeemed
+players: {}
